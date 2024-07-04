@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="os" value="mac"/>
+<parameter name="browser" value="chrome"/>
+<listeners>
+<listener class-name="Utilities.ExtentReportManager"/>	
+</listeners>
+  <test thread-count="5" name="Test">
+	<groups>
+	<run>
+<include name ="sanity"/>
+<include name = "regression"/>
+<!-- <include name ="master"/> -->
+<exclude name=""/>		
+</run>
+</groups>
+    <classes>
+		 <class name="MarketGuruTestCases.TC_002_Forgetpassword"/> 
+       <!--   <class name="MarketGuruTestCases.TC_001_Signup"/> 
+ <class name="MarketGuruTestCases.TC_002_Forgetpassword"/> 
+      <class name="MarketGuruTestCases.TC_004_Payment"/>
+      <class name="MarketGuruTestCases.TC_003_Login"/>
+       <class name="MarketGuruTestCases.TC_005_CreatenewProject"/>
+        <class name="MarketGuruTestCases.TC_006_Accountsetting"/>  -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

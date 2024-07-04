@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-28T13:28:22 IST" name="Suite" finished-at="2024-05-28T13:28:42 IST" duration-ms="20799">
+    <groups>
+      <group name="sanity">
+        <method signature="TC_002_Forgetpassword.setup_FP()[pri:0, instance:MarketGuruTestCases.TC_002_Forgetpassword@563f38c4]" name="setup_FP" class="MarketGuruTestCases.TC_002_Forgetpassword"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_002_Forgetpassword.setup_FP()[pri:0, instance:MarketGuruTestCases.TC_002_Forgetpassword@563f38c4]" name="setup_FP" class="MarketGuruTestCases.TC_002_Forgetpassword"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-05-28T13:28:22 IST" name="Test" finished-at="2024-05-28T13:28:42 IST" duration-ms="20799">
+      <class name="MarketGuruTestCases.TC_002_Forgetpassword">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:MarketGuruTestCases.TC_002_Forgetpassword@563f38c4]" started-at="2024-05-28T13:28:22 IST" name="setup" finished-at="2024-05-28T13:28:30 IST" duration-ms="8575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setup_FP()[pri:0, instance:MarketGuruTestCases.TC_002_Forgetpassword@563f38c4]" started-at="2024-05-28T13:28:30 IST" name="setup_FP" finished-at="2024-05-28T13:28:42 IST" duration-ms="11899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_FP -->
+      </class> <!-- MarketGuruTestCases.TC_002_Forgetpassword -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
